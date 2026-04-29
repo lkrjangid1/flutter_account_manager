@@ -3,7 +3,7 @@
 # Run `pod lib lint account_manager.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'account_manager'
+  s.name             = 'flutter_account_manager'
   s.version          = '0.0.1'
   s.summary          = 'A new Flutter plugin project.'
   s.description      = <<-DESC
@@ -25,5 +25,5 @@ A new Flutter plugin project.
   # required reason APIs, update the PrivacyInfo.xcprivacy file to describe your
   # plugin's privacy impact, and then uncomment this line. For more information,
   # see https://developer.apple.com/documentation/bundleresources/privacy_manifest_files
-  # s.resource_bundles = {'account_manager_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
+  # s.resource_bundles = {'flutter_account_manager_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
 end
